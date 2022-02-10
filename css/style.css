@@ -56,7 +56,8 @@ nav li:last-of-type {
     margin: 50px auto 50px auto;
 }
 .sign-up, .my-footer {
-    background-color: rgba(148, 138, 124, 0.493);
+    background-color: rgba(214, 214, 212, 0.493);
+    width: 100%;
 }
 .load-button button{
     border-radius: 0%;
@@ -76,4 +77,39 @@ nav li:last-of-type {
     justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 20px;
+}
+.sign-up-input input{
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: burlywood;
+    width: 100%;
+
+}
+.sign-up-input input[type=email].no-bor:focus{
+    border: 0px solid;
+}
+
+.sign-up-text p{
+    padding-bottom: 20px;
+    font-size: large;
+    
+}
+
+/* .sign-up-input input[type=email]:focus { 
+    border-bottom: 1px solid blue; 
+    box-shadow: 0 1px 0 0 blue;
+  } */
+.sign-up-button button{
+    border: none;
+    padding-bottom: 10px;
+}
+
+.sign-up-block {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid teal;
+    align-items: center;
 }
