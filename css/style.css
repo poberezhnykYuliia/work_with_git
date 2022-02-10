@@ -55,11 +55,25 @@ nav li:last-of-type {
 .load-button {
     margin: 50px auto 50px auto;
 }
-.sign-up {
+.sign-up, .my-footer {
     background-color: rgba(148, 138, 124, 0.493);
 }
 .load-button button{
     border-radius: 0%;
   
 }
-
+.footer-list {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+.footer-list li {
+    display: inline;
+    padding: 10px 10px 10px 10px ;
+}
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
